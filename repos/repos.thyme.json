@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Thyme-KernelSU-Proton",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "oneplus6-KernelSU-Proton",
+      "repo": "https://kgithub.com/OnePlusOSS/android_kernel_oneplus_sdm845",
+      "branch": "oneplus/SDM845_R_11.0",
+      "device": "sdm845",
+      "defconfig": "sdm845_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -40,16 +40,16 @@
       "use": true,
       "release": true,
       "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "branch": "sdm845"
     }
   },
   {
     "kernelSource": {
-      "name": "Thyme-Google",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "sdm845-Google",
+      "repo": "https://github.com/OnePlusOSS/android_kernel_oneplus_sdm845",
+      "branch": "oneplus/SDM845_R_11.0",
+      "device": "sdm845",
+      "defconfig": "sdm845_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -81,7 +81,7 @@
       "use": true,
       "release": true,
       "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "branch": "sdm845"
     }
   }
 ]
