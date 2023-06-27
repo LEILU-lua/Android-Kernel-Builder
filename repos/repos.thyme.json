@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "oneplus6-KernelSU-Proton",
-      "repo": "https://kgithub.com/OnePlusOSS/android_kernel_oneplus_sdm845",
+      "repo": "https://github.com/OnePlusOSS/android_kernel_oneplus_sdm845",
       "branch": "oneplus/SDM845_R_11.0",
       "device": "sdm845",
       "defconfig": "sdm845_defconfig"
