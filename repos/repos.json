@@ -3,9 +3,9 @@
     "kernelSource": {
       "name": "oneplus6-KernelSU-Proton",
       "repo": "https://github.com/OnePlusOSS/android_kernel_oneplus_sdm845",
-      "branch": "oneplus/SDM845_R_11.0",
+      "branch": "oneplus/SDM845_Q_10.0",
       "device": "sdm845",
-      "defconfig": "sdm845_defconfig"
+      "defconfig": "cuttlefish_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -49,7 +49,7 @@
       "repo": "https://github.com/OnePlusOSS/android_kernel_oneplus_sdm845",
       "branch": "oneplus/SDM845_R_11.0",
       "device": "sdm845",
-      "defconfig": "sdm845_defconfig"
+      "defconfig": "cuttlefish_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
